@@ -1,1 +1,1 @@
-php app/console app:import:std ../dump/
+php bin/console app:import:std ../arkhamdb-json-data/
