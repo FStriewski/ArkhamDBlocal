@@ -35,7 +35,8 @@
         "jms/i18n-routing-bundle": "^2.0"
     },
     "require-dev": {
-        "sensio/generator-bundle": "*"
+        "sensio/generator-bundle": "*",
+        "symfony/web-server-bundle": "^4.4"
     },
     "scripts": {
         "post-root-package-install": [
