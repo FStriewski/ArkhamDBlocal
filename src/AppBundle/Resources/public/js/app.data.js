@@ -12,7 +12,7 @@ data.load = function load() {
 	data.isLoaded = false;
 
 	var fdb = new ForerunnerDB();
-	data.db = fdb.db('arkhamdb');
+	data.db = fdb.db('mydb');
 	// seems that indexedDB is failing in chrome, so switching to localstorage for now
 	data.db.persist.driver("LocalStorage");
 
