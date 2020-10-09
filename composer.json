@@ -22,7 +22,7 @@
         "doctrine/dbal": "*",
         "doctrine/orm": "*",
         "doctrine/doctrine-bundle": "*",
-        "friendsofsymfony/jsrouting-bundle": "*",
+        "friendsofsymfony/jsrouting-bundle": "^2.6",
         "doctrine/doctrine-migrations-bundle": "*",
         "twig/extensions": "*",
         "ezyang/htmlpurifier": "^4.6",

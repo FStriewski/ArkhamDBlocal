@@ -73,12 +73,17 @@ assetic:
 doctrine:
     dbal:
         driver:   pdo_mysql
-        server_version: 5.6
-        host:     "%database_host%"
-        port:     "%database_port%"
-        dbname:   "%database_name%"
-        user:     "%database_user%"
-        password: "%database_password%"
+        server_version: 5.7
+        host:     127.0.0.1
+        # host:     "%database_host%"
+        port:     3306
+        # port:     "%database_port%"
+        dbname:   mydb
+        # dbname:   "%database_name%"
+        user:     root
+        # user:     "%database_user%"
+        password: ""
+        # password: "%database_password%"
         charset:  UTF8
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml

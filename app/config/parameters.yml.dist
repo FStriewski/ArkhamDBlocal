@@ -1,7 +1,7 @@
 parameters:
     database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     symfony
+    database_port:     3306
+    database_name:     ~
     database_user:     root
     database_password: ~
 
@@ -11,7 +11,8 @@ parameters:
     mailer_password:   ~
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            a44b03667cea775ae06c36c17bec5baf96617d91
+    name: test
     
     # units: seconds
     cache_expiration:  600
