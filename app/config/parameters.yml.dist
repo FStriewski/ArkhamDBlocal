@@ -23,7 +23,7 @@ parameters:
     
     # Branding
     website_name: ~
-    website_url: ~
+    website_url: 127.0.0.1
     game_name: ~
     publisher_name: ~ 
     
